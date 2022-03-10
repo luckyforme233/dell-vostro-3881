@@ -36,6 +36,29 @@
 
 
 
+# BIOS 设置
+## Disable
+Fast Boot
+Secure Boot
+Serial/COM Port
+Parallel Port
+VT-d (can be enabled if you set DisableIoMapper to YES)
+CSM
+Thunderbolt(For initial install, as Thunderbolt can cause issues if not setup correctly)
+Intel SGX
+Intel Platform Trust
+CFG Lock (MSR 0xE2 write protection)(This must be off, if you can't find the option then enable both AppleCpuPmCfgLock and AppleXcpmCfgLock under Kernel -> Quirks. Your hack will not boot with CFG-Lock enabled)
+
+## Enable
+VT-x
+Above 4G decoding
+Hyper-Threading
+Execute Disable Bit
+EHCI/XHCI Hand-off
+OS type: Windows 8.1/10 UEFI Mode
+DVMT Pre-Allocated(iGPU Memory): 64MB
+SATA Mode: AHCI
+
 
 
 # 参考连接
