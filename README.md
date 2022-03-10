@@ -29,6 +29,12 @@
 
 
 
+# 解锁BIOS步骤
+![image](https://user-images.githubusercontent.com/18027182/157573811-91c7df46-6bfc-426f-9007-dd53026d38c3.png)
+
+![image](https://user-images.githubusercontent.com/18027182/157573824-611e5935-9ff8-4e0e-a3cb-b29b30bfbdeb.png)
+
+
 
 # 参考连接
 
